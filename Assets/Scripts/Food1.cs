@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class Food1 : MonoBehaviour {
 
+
 	public int ID;
 
 	public LevelManager lm;
+	public GameObject plate;
 
 	FallingFood ff = new FallingFood();
+
 
 	public void OnCollisionEnter2D (Collision2D coll){
 		if (!enabled)

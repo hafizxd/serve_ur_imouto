@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class FallingFood{
 
-	public GameObject foodGenerator;
+	public GameObject foodGenerator, plateObj;
 	public static GameObject atas;
 	public static GameObject bawah;
 	public Transform left, right;
@@ -26,6 +26,9 @@ public class FallingFood{
 		}
 
 	}
+
+
+		
 
 
 }

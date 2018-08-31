@@ -7,6 +7,8 @@ public class Plate : MonoBehaviour {
 
 	public string nextScene;
 	public GameObject[] upObj;
+	FallingFood ff = new FallingFood();
+
 
 	void Start () {
 
@@ -54,8 +56,6 @@ public class Plate : MonoBehaviour {
 		yield return new WaitForSeconds (1.5f);
 		LevelManager.LoadScene (nextScene);
 	}
-
-
 		
 
 }

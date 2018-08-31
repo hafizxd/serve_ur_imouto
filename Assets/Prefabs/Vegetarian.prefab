@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 3
   lm: {fileID: 114633092222933974, guid: b12a33db0f5996647a65fb79fabc906e, type: 2}
+  plate: {fileID: 0}
 --- !u!212 &212172977347480658
 SpriteRenderer:
   m_ObjectHideFlags: 1

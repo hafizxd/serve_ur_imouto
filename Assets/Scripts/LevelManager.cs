@@ -10,6 +10,7 @@ public class LevelManager: MonoBehaviour {
 	public SpriteRenderer downBreadSL, eggSL, cheeseSL, meatSL, vegetableSL, upBreadSL;
 	public FallingFood ff;
 
+
 	public static int currentID = 1;
 
 	public string nextScene;
@@ -45,10 +46,14 @@ public class LevelManager: MonoBehaviour {
 		ff.Fall (meat, 4, this);
 		ff.Fall (vegetarian, 5, this);
 		ff.Fall (upBread, 9, this);
+
+
+
 	}
 
 	public static void LoadScene(string nama){
 		SceneManager.LoadScene (nama);
 	}
+
 
 }
